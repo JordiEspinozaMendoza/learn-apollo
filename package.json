@@ -1,0 +1,27 @@
+{
+  "name": "learn-apollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordiEspinozaMendoza/learn-apollo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordiEspinozaMendoza/learn-apollo/issues"
+  },
+  "homepage": "https://github.com/JordiEspinozaMendoza/learn-apollo#readme",
+  "dependencies": {
+    "graphql": "15.3.0",
+    "nodemon": "^2.0.12",
+    "@apollo/server": "^4.3.0"
+  }
+}
